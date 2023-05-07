@@ -1,0 +1,145 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "government sponsored loans and schemes",
+      "patterns": [
+        "Tell me about some government sponsored loans and schemes?",
+        "Tell me few govt related loans and schemes?",
+        "Give me few government sponsored loans and schemes?",
+        "Can you please tell me government sponsored loans and schemes?",
+        "Can you please tell me few government sponsored loans and schemes?",
+        "government sponsored loans and schemes",
+        "government sponsored loans and schemes?",
+        "government loans and schemes",
+        "govt loans and schemes"
+      ],
+      "responses": [
+        "Sure, Here are few of the government sponsored loans and schemes :- 1)Pradhan Mantri Mudra Yojana  2)Pradhan Mantri Jeevan Jyoti Bima Yojana  3)Atal Pension Yojana  4)Senior Citizens Saving Scheme  5)Ladli Beti Scheme",
+        "Yes, these are few of the government sponsored loans and schemes :- 1)Pradhan Mantri Mudra Yojana  2)Pradhan Mantri Jeevan Jyoti Bima Yojana  3)Atal Pension Yojana  4)Senior Citizens Saving Scheme  5)Ladli Beti Scheme"
+      ]
+    },
+    {
+      "tag": "Pradhan Mantri Mudra Yojana",
+      "patterns": [
+        "What is Pradhan Mantri Mudra Yojana",
+        "Can you please tell me about Pradhan Mantri Mudra Yojana",
+        "Pradhan Mantri Mudra Yojana",
+        "Give me brief information about Pradhan Mantri Mudra Yojana",
+        "Give info regarding Pradhan Mantri Mudra Yojana",
+        "Inform me about Pradhan Mantri Mudra Yojana",
+        "PMMY",
+        "What is PMMY?",
+        "Information regarding PMMY"
+      ],
+      "responses": [
+        "Pradhan Mantri Mudra Yojana (PMMY) is a flagship scheme of Government of India. The scheme facilitates micro credit/Loan up to Rs. 10 lakh to income generating micro enterprises engaged in the non farm sector in manufacturing, processing, trading or service sector. MUDRA supports Financial Intermediaries to extend loans to the non-corporate, non-farm sector income generating activities of micro and small entities. Read more about this here - https://www.myscheme.gov.in/schemes/pmmy"
+      ]
+    },
+    {
+      "tag": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+      "patterns": [
+        "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+        "Tell me about Pradhan Mantri Jeevan Jyoti Bima Yojana",
+        "What is pradhan mantri jyoti bima yojana",
+        "Give me brief info regarding pradhan mantri jeevan jyoti bima yojana",
+        "Information regarding pradhan mantri jeevan jyothi bima yojana",
+        "PMJJBY",
+        "What is PMJJBY?",
+        "Give information regarding PMJJBY"
+      ],
+      "responses": [
+        "PMJJBY is an insurance scheme by Ministry of Finance, offering life insurance cover for death due to any reason. It is a one-year cover, renewable from year to year. The scheme is offered / administered through LIC and other Life Insurance companies willing to offer the product on similar terms with necessary approvals and tie ups with Banks / Post office for this purpose. All individual account holders of participating banks/ Post office in the age group of 18 to 50 years are entitled to join. Aadhaar is the primary KYC for the bank / Post office account.Read more about this here - https://www.myscheme.gov.in/schemes/pmjjby"
+      ]
+    },
+    {
+      "tag": "Atal Pension Yojana",
+      "patterns": [
+        "Atal Pension Yojana",
+        "What is atal pension yojana",
+        "Tell me about atal pension yojana",
+        "Describe atal pension yojana",
+        "APY",
+        "What is APY?",
+        "Give information regarding atal pension yojana"
+      ],
+      "responses": [
+        "Atal Pension Yojana (APY) is an old age income security scheme for all the savings account holder between age group 18-40. The scheme also address the longevity risks among the workers in unorganized sector and encourages the workers to voluntarily save for their retirement.Read more about this here - https://www.myscheme.gov.in/schemes/apy"
+      ]
+    },
+    {
+      "tag": "Senior Citizen Saving Scheme",
+      "patterns": [
+        "Senior Citizen Saving Scheme",
+        "What is Senior citizen saving scheme",
+        "Tell me about senior citizen saving scheme",
+        "Describe senior citizen saving scheme",
+        "SCSS",
+        "What is SCSS?",
+        "Give information regarding Senior citizen saving scheme"
+      ],
+      "responses": [
+        "The Senior Citizens’ Saving Scheme is a retirement benefit program by the Government of India. Individuals over 60 years can opt for the SCSS scheme by investing by making an individual or joint investment. In addition, this scheme provides tax benefits. In SCSS, the installment amount ranges between ₹1,000 and ₹15 lakhs. This amount is constricted to the retirement benefits.Read more about this here - https://www.myscheme.gov.in/schemes/scss"
+      ]
+    },
+    {
+      "tag": "Ladli Beti Scheme",
+      "patterns": [
+        "Ladli Beti Scheme",
+        "What is ladli beti scheme",
+        "Tell me about ladli beti scheme",
+        "Describe ladli beti scheme",
+        "LBS",
+        "What is LBS?",
+        "Give information regarding ladli beti scheme"
+      ],
+      "responses": [
+        "A social assistance scheme sponsored by the Jammu & Kashmir Government for newborn girl child of the Union Territories of J&K and Ladakh born on or after 01/04/2015. The objective of the scheme is to arrest the declining female sex ratio. The scheme further intends to ensure that the girl child does not become a burden for the parent or guardian at the time of her marriage.Read more about this here - https://www.myscheme.gov.in/schemes/lbs"
+      ]
+    },
+    {
+      "tag": "Other schemes and loans",
+      "patterns": [
+        "Other schemes and loans?",
+        "What are other govt schemes and loans",
+        "Tell me other schemes and loans",
+        "Few more government related schemes and loans",
+        "Can you tell me other govt sponsored loans and schemes?",
+        "Different govt related loans and schemes"
+      ],
+      "responses": [
+        "Yes, These are other government sponsored loans and schemes 1)Indira Gandhi National Old Age Pension Scheme  2)Credit Based Schemes For SC - Mahila Samriddhi Yojana  3)Aponar Apon Ghar"
+      ]
+    }
+  ]
+}
